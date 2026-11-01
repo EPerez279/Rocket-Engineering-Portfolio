@@ -1,4 +1,4 @@
-# Rocket Flight Computer - Divinity
+# Divinity - Rocket Flight Computer
 
 ### Project Overview
 
@@ -59,7 +59,7 @@ The firmware uses the following external libraries:
 
 ### MadgwickAHRS Modification
 
-I modified the MadgwickAHRS header locally to allow direct access to the filter's beta parameter and quaternion components.
+I modified the MadgwickAHRS header locally to allow direct access to the filter's beta parameter and quaternion components, though making variables of the class `Madgwick` to be `public` instead of `private` in `MadgwickAHRS.h`
 
 The underlying orientation-estimation algorithm was not modified. The modified library is not included in this repository.
 
