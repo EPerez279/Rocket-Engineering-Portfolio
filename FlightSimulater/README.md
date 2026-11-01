@@ -1,4 +1,24 @@
-# Running the Python Simulator
+# Rocket Flight Simulator
+## Project Overview
+
+I developed this Python simulator to investigate rocket flight dynamics and control behavior without relying entirely on physical rocket launches.
+
+The simulator uses mathematical models to calculate the rocket's motion and orientation over time, allowing me to experiment with different conditions and control strategies.
+
+Note that this is simulation still experimental, and the landing of the rocket is still in development.
+## How It Works
+
+The simulation includes:
+
+- Three-dimensional position, velocity, and orientation represented using quaternions.
+- Mathematical models for thrust, gravity, aerodynamic forces, and wind.
+- Changes in rocket mass and center of mass during flight.
+- PID-based thrust vector control (TVC).
+- Fourth-order Runge–Kutta (RK4) numerical integration.
+- A modeled second motor ignition at a configurable time.
+
+The simulator produces graphs of flight data and a 3D trajectory plot. Interactive sliders allow changes to rocket mass, wind speed, and second ignition timing.
+## Running the Python Simulator
 Install the required libraries:
 ```
 pip install numpy matplotlib
