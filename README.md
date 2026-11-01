@@ -1,4 +1,4 @@
-# Rocket Portfolio
+# Rocket Engineering Portfolio
 
 This repository documents my engineering contributions to our high school rocketry project. My work focuses on embedded programming, custom PCB design, flight-control systems, and physics-based simulation.
 ## Projects
